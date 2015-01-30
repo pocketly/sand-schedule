@@ -25,12 +25,12 @@
   "devDependencies": {
     "mocha": "^2.1.0",
     "should": "^4.6.2",
+    "sand": "^0.1.8",
     "sinon": "^1.12.2"
   },
   "dependencies": {
     "lodash": "^3.0.0",
     "node-schedule": "^0.1.15",
-    "sand": "^0.1.8",
     "sand-grain": "^0.1.2",
     "temporal": "^0.4.0"
   }
