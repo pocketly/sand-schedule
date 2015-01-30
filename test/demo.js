@@ -3,6 +3,6 @@
  * @copyright 2015 Pocketly
  */ 
 
-var app = require('sand')({appPath: __dirname})
-  .use(require('..'), {all: {log: '*'}})
+var app = require('sand')({appPath: __dirname, log: '*'})
+  .use(require('..'))
   .start();
