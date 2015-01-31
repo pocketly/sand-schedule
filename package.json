@@ -31,6 +31,7 @@
   "dependencies": {
     "lodash": "^3.0.0",
     "node-schedule": "^0.1.15",
+    "require-all": "^1.0.0",
     "sand-grain": "^0.1.2",
     "temporal": "^0.4.0"
   }
