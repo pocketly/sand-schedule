@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/pocketly/sand-cron/issues"
   },
-  "homepage": "https://github.com/pocketly/sand-cron",
+  "homepage": "https://github.com/pocketly/sand-schedule",
   "devDependencies": {
     "mocha": "^2.1.0",
     "should": "^4.6.2",
