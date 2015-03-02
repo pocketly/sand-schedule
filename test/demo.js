@@ -8,5 +8,9 @@ var server = require('lockd').listen(lockdConfig);
 
 var app = require('sand')({appPath: __dirname, log: '*'})
   .use(require('sand-lockd'), {all: lockdConfig})
-  .use(require('..'), {all: {useSandLockd: true}})
+  .use(require('sand-http'), {all: {port: 12345}})
+  .use(require('..'), {all: {
+    useSandLockd: true,
+    allowFailedSchedule: false
+  }})
   .start();

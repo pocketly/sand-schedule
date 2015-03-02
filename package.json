@@ -24,8 +24,9 @@
   "homepage": "https://github.com/pocketly/sand-schedule",
   "devDependencies": {
     "mocha": "^2.1.0",
+    "sand-http": "^0.2.19",
     "should": "^4.6.2",
-    "sand": "^0.1.8",
+    "sand": "^0.1.11",
     "sinon": "^1.12.2"
   },
   "dependencies": {
