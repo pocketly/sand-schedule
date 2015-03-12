@@ -31,8 +31,8 @@
   },
   "dependencies": {
     "lockd": "^0.1.0",
-    "lodash": "^3.0.0",
-    "node-schedule": "^0.1.15",
+    "lodash": "^3.5.0",
+    "node-schedule": "^0.1.16",
     "require-all": "^1.0.0",
     "sand-grain": "1.0.0",
     "temporal": "^0.4.0"
