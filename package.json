@@ -1,6 +1,6 @@
 {
   "name": "sand-schedule",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "A simple sand.js plugin to simplify job scheduling",
   "main": "lib/index.js",
   "scripts": {
@@ -24,9 +24,9 @@
   "homepage": "https://github.com/pocketly/sand-schedule",
   "devDependencies": {
     "mocha": "^2.1.0",
-    "sand-http": "git+https://github.com/pocketly/sand-http.git#es6",
+    "sand-http": "1.0.0",
     "should": "^4.6.2",
-    "sand": "git+https://github.com/pocketly/sand.git#es6",
+    "sand": "1.0.0",
     "sinon": "^1.12.2"
   },
   "dependencies": {
@@ -34,7 +34,7 @@
     "lodash": "^3.0.0",
     "node-schedule": "^0.1.15",
     "require-all": "^1.0.0",
-    "sand-grain": "git+https://github.com/pocketly/sand-grain.git#es6",
+    "sand-grain": "1.0.0",
     "temporal": "^0.4.0"
   }
 }

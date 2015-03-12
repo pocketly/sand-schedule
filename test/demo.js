@@ -4,6 +4,7 @@
  */
 
 /*
+ * NODE: /usr/bin/node is actually io.js
  * /usr/bin/node --es_staging /usr/bin/node-pm demo.js should demonstrate locking
  */
 
