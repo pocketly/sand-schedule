@@ -36,5 +36,8 @@
     "require-all": "^1.0.0",
     "sand-grain": "1.0.0",
     "temporal": "^0.4.0"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
   }
 }
