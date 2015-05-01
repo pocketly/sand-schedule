@@ -24,5 +24,10 @@ setTimeout(function() {
       useSandLockd: true,
       allowFailedSchedule: false
     }})
-    .start();
+    .start()
+    .on('shutdown', function() {
+      if (server) {
+        server.destroy();
+      }
+    });
 }, 0);
