@@ -30,12 +30,14 @@
     "sinon": "^1.12.2"
   },
   "dependencies": {
-    "lockd": "^0.1.0",
     "lodash": "^3.5.0",
     "node-schedule": "^0.2.6",
-    "require-all": "^1.0.0",
+    "require-all": "^1.0.0"
+  },
+  "devDependencies": {
     "sand-grain": "1.0.0",
-    "sand-lockd": "^1.0.0"
+    "sand-lockd": "^1.0.0",
+    "lockd": "^0.1.0"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
