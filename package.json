@@ -27,17 +27,15 @@
     "sand": "^1.0.1",
     "sand-http": "^1.0.13",
     "should": "^6.0.1",
-    "sinon": "^1.12.2"
+    "sinon": "^1.12.2",
+    "sand-lockd": "^1.0.0",
+    "lockd": "^0.1.0"
   },
   "dependencies": {
     "lodash": "^3.5.0",
     "node-schedule": "^0.2.6",
     "sand-grain": "1.0.0",
     "require-all": "^1.0.0"
-  },
-  "devDependencies": {
-    "sand-lockd": "^1.0.0",
-    "lockd": "^0.1.0"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
