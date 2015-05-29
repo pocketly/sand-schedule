@@ -1,6 +1,6 @@
 {
   "name": "sand-schedule",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "A simple sand.js plugin to simplify job scheduling",
   "main": "lib/index.js",
   "scripts": {
