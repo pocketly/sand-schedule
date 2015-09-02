@@ -23,18 +23,23 @@
   },
   "homepage": "https://github.com/pocketly/sand-schedule",
   "devDependencies": {
-    "mocha": "^2.1.0",
+    "lockd": "^0.1.0",
+    "mocha": "^2.3.0",
     "sand": "^1.2.5",
-    "should": "^6.0.1",
-    "sinon": "^1.12.2",
     "sand-lockd": "^1.0.0",
-    "lockd": "^0.1.0"
+    "should": "^7.1.0",
+    "sinon": "^1.16.1"
   },
   "dependencies": {
-    "lodash": "^3.5.0",
-    "node-schedule": "^0.2.6",
+    "co": "sazze/co",
+    "co-bind": "^1.0.0",
+    "delegates": "^0.1.0",
+    "lodash": "^3.10.1",
+    "node-schedule": "^0.2.9",
+    "q": "^1.4.1",
+    "require-all": "^1.1.0",
     "sand-grain": "1.1.1",
-    "require-all": "^1.0.0"
+    "sanitize": "^2.0.1"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
